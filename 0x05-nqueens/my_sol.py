@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import sys
 
-
 def check_input():
     """Check and validate the input argument."""
     if len(sys.argv) != 2:

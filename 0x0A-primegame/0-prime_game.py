@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def sieve_of_eratosthenes(n):
     """Helper function to generate prime numbers up to n using Sieve of Eratosthenes."""
     primes = [True] * (n + 1)
@@ -9,6 +11,8 @@ def sieve_of_eratosthenes(n):
     return primes
 
 def isWinner(x, nums):
+    """Determines the winner of a prime game session with `x` rounds.
+    """
     if not nums or x < 0:
         return None
 
